@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #e3350d; /* Vermelho Pokémon */
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 5px solid #222;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #313131;
+    color: white;
+}
+
+.btn-download {
+    background-color: #4dad5b;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-download:hover {
+    background-color: #3b8a48;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    color: #777;
+}
